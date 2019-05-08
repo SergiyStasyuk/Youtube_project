@@ -4,7 +4,31 @@ body {
 	margin: 0;
 }
 
+div {
+	box-sizing: border-box;
+}
+
 header {
 	background: url(../img/first-bg.jpg) no-repeat center top / cover;
 	height: 600px;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: block;
 }
