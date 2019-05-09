@@ -160,6 +160,34 @@ h1 {
 	float: right;
 }
 
+#about {
+	padding-bottom: 120px;
+}
+
+.about {
+
+}
+
+.about__img__1,
+.about__img__2,
+.about__img__3,
+.about__img__4 {
+	text-align: center;
+	padding: 0;
+}
+
+.about__item__1,
+.about__item__2,
+.about__item__3,
+.about__item__4 {
+	width: 280px;
+	padding-left: 0;
+}
+
+.about__item__2 {
+	float: right;
+}
+
 
 
 
