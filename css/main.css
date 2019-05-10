@@ -164,29 +164,67 @@ h1 {
 	padding-bottom: 120px;
 }
 
-.about {
-
+.about__img1 {
+	margin-top: 80px;
+	position: absolute;
+	margin-left: 375px;
 }
 
-.about__img__1,
-.about__img__2,
-.about__img__3,
-.about__img__4 {
-	text-align: center;
-	padding: 0;
-}
-
-.about__item__1,
-.about__item__2,
-.about__item__3,
-.about__item__4 {
+.about__item__left {
 	width: 280px;
-	padding-left: 0;
+	margin-top: 80px;
+	margin-left: 40px;
+	float: left;
+	text-align: right;
+
 }
 
-.about__item__2 {
-	float: right;
+.about__item__left h3 {
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
 }
+
+.about__item__left h4 {
+	margin-top: 8px;
+	font-size: 18px;
+}
+
+.about__item__left p {
+	color: #777777;
+	line-height: 1.5em;
+	margin-top: -10px;
+	font-size: 14px;
+}
+
+.about__img2 {
+	margin-top: 360px;
+	position: absolute;
+	margin-left: 375px;
+}
+
+.about__item__right {
+	width: 280px;
+	margin-top: 360px;
+	float: right;
+	text-align: left;
+	margin-right: 40px;
+}
+
+.about__item__right h3 {
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.about__item__right h4 {
+	margin-top: 8px;
+	font-size: 18px;
+}
+
+
 
 
 
